@@ -1,0 +1,5 @@
+"""
+LANGCHAIN_API_KEY= "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"
+OPENAI_API_KEY= "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"
+LANGCHAIN_PROJECT= "Chatbot"
+"""
