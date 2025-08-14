@@ -10,3 +10,10 @@ sse_starlette
 bs4
 pypdf
 chroma
+wikipedia
+arxiv
+langchainhub
+groq
+langchain-groq
+beautifulsoup4
+langchain-ollama
