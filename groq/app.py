@@ -32,8 +32,7 @@ except KeyError:
 if "vectors" not in st.session_state:
     st.session_state.embeddings = OllamaEmbeddings(model="llama2")
     # testing https://bloodstemcell.hrsa.gov/about/advisory-council/charter
-    # testing https://pmc.ncbi.nlm.nih.gov/articles/PMC10424908/#:~:text=The%20application's%20interface%20allows%20users,for%20non%2Dinstitutionalized%20US%20adults.
-    st.session_state.loader = WebBaseLoader("https://pmc.ncbi.nlm.nih.gov/articles/PMC10424908/#:~:text=The%20application's%20interface%20allows%20users,for%20non%2Dinstitutionalized%20US%20adults.")
+    st.session_state.loader = WebBaseLoader("https://bloodstemcell.hrsa.gov/about/advisory-council/charter")
     st.session_state.text = st.session_state.loader.load()
     st.session_state.text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=1000,

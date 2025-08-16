@@ -17,3 +17,4 @@ groq
 langchain-groq
 beautifulsoup4
 langchain-ollama
+sentence-transformers
